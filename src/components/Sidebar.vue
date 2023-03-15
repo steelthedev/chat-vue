@@ -58,6 +58,7 @@ export default{
     width: 100px;
     position:absolute;
     height: 100vh;
+ 
 }
 
 

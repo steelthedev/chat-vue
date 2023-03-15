@@ -1,5 +1,5 @@
 <template>
-    <section class="mini ml-11">
+    <section class="mini ml-md-11">
         <v-container>
             <div class="profile-heading d-flex ">
                 <h6 class="text-h6 text-word">My Profile</h6>
@@ -34,12 +34,34 @@
                 <div class="picture-words">
                     <div class="name">
                         <h6 class="text-h6 text-word mt-3">Iyanu Akinwumi</h6>
-                    
                     </div>
                 </div>
             </div>
 
             <v-divider></v-divider>
+
+            <div class="profile-about pa-3">
+                <div class="about-words mt-7">
+                    <p class="text-subtitle-1 text-word">
+                        If several languages coalesce,
+                        the grammar of the resulting language is more simple and regular than that of the individual.
+                    </p>
+                </div>
+            </div>
+
+            <v-expansion-panels variant="accordion">
+            
+                <v-expansion-panel
+                title="About"
+                >
+            </v-expansion-panel>
+                
+                <v-expansion-panel
+                
+                ></v-expansion-panel>
+            </v-expansion-panels>
+
+
             
         </v-container>
      
@@ -55,7 +77,7 @@ export default{
 </script>
 <style scoped>
 .mini{
-    width: 400px;
+  
 }
 
 
